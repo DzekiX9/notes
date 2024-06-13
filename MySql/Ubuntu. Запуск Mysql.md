@@ -8,7 +8,8 @@ sudo apt install mariadb-server mariadb-client
 systemctl status mysql
 ```
 
-Если все нормально, Вы должны увидеть в терминале зелененькую надпись **active** ![Служба MySQL - статус active](https://rusabk.github.io/illustrations/mysql/active.png "Служба MySQL - статус active")
+Если все нормально, Вы должны увидеть в терминале зелененькую надпись **active** 
+![[Pasted image 20240614010238.png]]
 
 Если в вашем случае статус другой, попробуйте перезапустить службу при помощи команды restart
 
