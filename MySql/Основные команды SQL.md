@@ -1,3 +1,47 @@
+
+## Содержание:
+
+1. [[#Настройка базы данных|Настройка базы данных]]
+1. [[#SHOW DATABASES|SHOW DATABASES]]
+1. [[#CREATE DATABASE|CREATE DATABASE]]
+1. [[#USE|USE]]
+1. [[#SOURCE|SOURCE]]
+1. [[#DROP DATABASE|DROP DATABASE]]
+1. [[#SHOW TABLES|SHOW TABLES]]
+1. [[#CREATE TABLE|CREATE TABLE]]
+		1. [[#Ограничения целостности при использовании CREATE TABLE|Ограничения целостности при использовании CREATE TABLE]]
+		1. [[#Пример|Пример]]
+1. [[#DESCRIBE|DESCRIBE]]
+1. [[#INSERT|INSERT]]
+1. [[#UPDATE|UPDATE]]
+1. [[#DELETE|DELETE]]
+1. [[#DROP TABLE|DROP TABLE]]
+1. [[#SELECT|SELECT]]
+1. [[#SELECT DISTINCT|SELECT DISTINCT]]
+1. [[#WHERE|WHERE]]
+		1. [[#Пример|Пример]]
+1. [[#GROUP BY|GROUP BY]]
+		1. [[#Пример|Пример]]
+1. [[#HAVING|HAVING]]
+		1. [[#Пример|Пример]]
+1. [[#ORDER BY|ORDER BY]]
+		1. [[#Пример|Пример]]
+1. [[#BETWEEN|BETWEEN]]
+		1. [[#Пример|Пример]]
+1. [[#LIKE|LIKE]]
+		1. [[#Пример|Пример]]
+1. [[#IN|IN]]
+		1. [[#Пример|Пример]]
+1. [[#JOIN|JOIN]]
+		1. [[#Пример|Пример]]
+1. [[#VIEW|VIEW]]
+		1. [[#Создание|Создание]]
+		1. [[#Удаление|Удаление]]
+1. [[#Агрегатные функции|Агрегатные функции]]
+1. [[#Вложенные подзапросы|Вложенные подзапросы]]
+		1. [[#Пример|Пример]]
+
+
 ## Настройка базы данных
 
 Перед началом создайте БД с тестовыми данными. Для работы вам понадобится скачать два файла: [DLL.sql](https://drive.google.com/file/d/0B_oq3-doZhC-ME1lUlR3a3pYRU0/view?resourcekey=0-flfPMq0i6E6-i5BX27Se4g) и [InsertStatements.sql](https://drive.google.com/file/d/0B_oq3-doZhC-TV9ud1JubkVDaXM/view?resourcekey=0-CToHONw06G5QQ6DuRf68Ng). После установите MySQL, откройте терминал и войдите в консоль MySQL с помощью команды:
@@ -63,7 +107,7 @@ CREATE TABLE <table_name1> (
 
 Можно задать больше одного первичного ключа. В этом случае получится составной первичный ключ.
 
-#### Пример
+**Пример**
 
 Создайте таблицу «instructor»:
 
@@ -156,7 +200,7 @@ SELECT <col_name1>, <col_name2>, …
 - сравнение численных значений;
 - логические операции `AND` (и), `OR` (или) и `NOT` (отрицание).
 
-#### Пример
+ **Пример**
 
 Попробуйте выполнить следующие команды. Обратите внимание на условия, заданные в `WHERE`:
 
