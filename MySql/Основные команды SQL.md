@@ -1,6 +1,32 @@
+## Содержание:
 
-
-
+- [[#Настройка базы данных|Настройка базы данных]]
+- [[#SHOW DATABASES|SHOW DATABASES]]
+- [[#CREATE DATABASE|CREATE DATABASE]]
+- [[#USE|USE]]
+- [[#SOURCE|SOURCE]]
+- [[#DROP DATABASE|DROP DATABASE]]
+- [[#SHOW TABLES|SHOW TABLES]]
+- [[#CREATE TABLE|CREATE TABLE]]
+- [[#Ограничения целостности при использовании CREATE TABLE|Ограничения целостности при использовании CREATE TABLE]]
+- [[#DESCRIBE|DESCRIBE]]
+- [[#INSERT|INSERT]]
+- [[#UPDATE|UPDATE]]
+- [[#DELETE|DELETE]]
+- [[#DROP TABLE|DROP TABLE]]
+- [[#SELECT|SELECT]]
+- [[#SELECT DISTINCT|SELECT DISTINCT]]
+- [[#WHERE|WHERE]]
+- [[#GROUP BY|GROUP BY]]
+- [[#HAVING|HAVING]]
+- [[#ORDER BY|ORDER BY]]
+- [[#BETWEEN|BETWEEN]]
+- [[#LIKE|LIKE]]
+- [[#IN|IN]]
+- [[#JOIN|JOIN]]
+- [[#VIEW|VIEW]]
+- [[#Агрегатные функции|Агрегатные функции]]
+- [[#Вложенные подзапросы|Вложенные подзапросы]]
 
 
 ## Настройка базы данных
